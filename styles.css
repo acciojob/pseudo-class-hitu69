@@ -1,9 +1,9 @@
-span::before {
+div::before {
 	content: "Before Element ";
 	color:red;
 }
 
-span::after {
+div::after {
 	content: " After Element";
 	color:red;
 }
