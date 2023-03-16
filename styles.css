@@ -1,21 +1,9 @@
-/* your css code here. If applicable */
+span::before {
+	content: "Before Element ";
+	color:red;
+}
 
-#container{
-display:flex;
-font-size:16px;
-
-}
-.beforeEle{
-color: rgb(255, 0, 0);
-font-size:20px;
-padding-right:4px;
-}
-.afterEle{
-color:rgb(255, 0, 0);
-font-size:20px;
-padding-left:4px;
-}
-.middle{
-color:rgb(0, 0, 0);
-padding-top:2px;
+span::after {
+	content: " After Element";
+	color:red;
 }
